@@ -1,0 +1,18 @@
+#
+import numpy as np
+import matplotlib.pyplot as plt
+
+#constants
+G = 6.67430e-11 #gravational constant cubic meters per kg per second squared (m^3 kg^-1 s^-2)
+c = 3.0e8 #speed of light m/s in a vacuum
+M = 1.989e30 #1 solar mass of the black hole
+
+#schwarzschild radius *event horizon*
+r_s = 2*G*M/ c**2
+
+#initial
+r0 = 10 * r_s 
+theta0 = 0
+phi0 = 0
+vr0=0
+vtheta0=0
